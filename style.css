@@ -1,0 +1,38 @@
+/* General Css start */
+/* 1 rem = 16px */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.btn {
+ padding: 0.75rem 1.5rem;
+ border-radius: 0.5rem;
+ font-weight: 700;
+ font-size: 1rem;
+ line-height: 150%;
+ letter-spacing: 0,125rem;
+ text-transform: uppercase;
+ color: #FFFFFF;
+ border-width: 2px;
+ border-style: solid;
+
+}
+
+.btn_red {
+background-color: #DE2E54;
+border-color: #DE2E54;
+}
+
+.btn_red:hover{
+    background-color: #fff;
+    color: #DE2E54;
+}
+
+.btn_transparent {
+    background: transparent;
+    border-color: #fff;
+
+}
+/* General Css finish */
