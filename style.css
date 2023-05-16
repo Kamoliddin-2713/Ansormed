@@ -58,7 +58,9 @@
 .text_black{
     color: #000;
 }
-
+a {
+    text-decoration: none;
+}
 /* General Css finish */
 
 /* Navbar CSS start */
@@ -67,12 +69,54 @@ nav {
     padding: 24px 170px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+.logo_wrap a{
+    display: flex;
+    align-items: center;
+}
+.logo_wrap span {
+    font-family: 'OS';
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-left: 1rem;
+    /* color: #000; */
 }
 .menu {
     display: flex;
     list-style: none;
 
 }
+.menu li {
+    margin-left: 2rem;
+    font-family: 'OS';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.9rem;
+    line-height: 150%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.text_black {
+    color: #000;
+}
+.text_white{
+    color: #fff;
+}
 
 
 /* Navbar CSS finish */
+
+/*Footer Css start */
+
+footer {
+    background-color: #222;
+    padding: 24px 170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+/*Footer Css finish */
