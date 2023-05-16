@@ -15,28 +15,28 @@
     src: url("./need/fonts/OpenSans_Condensed-Light.ttf");
 }
 .btn {
-width: 300px;
-height: 50px;
-padding: 0.75rem 1.5rem;
-font-style: normal;
-font-weight: 700;
-font-size: 1rem;
-line-height: 150%;
-/* letter-spacing: 2px; */
-text-transform: uppercase;
-color: #FFFFFF;
-border-width: 2px;
-border-style: solid;
-border-radius: 0.5rem;
+    width: 300px;
+    height: 50px;
+    padding: 0.75rem 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 150%;
+    /* letter-spacing: 2px; */
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 0.5rem;
 
 }
 .btn_red, .btn_transparent:hover{
-background: #DE2E54;
-border: 2px solid #DE2E54;
+    background: #DE2E54;
+    border: 2px solid #DE2E54;
 }
 .btn_transparent{
-background: transparent;
-border: 2px solid #fff;
+    background: transparent;
+    border: 2px solid #fff;
 
 }
 .transparent {
@@ -44,22 +44,35 @@ border: 2px solid #fff;
     padding: 20px;
 }
 .btn_red:hover{
-background: #FFFFFF;
-border: 2px solid #DE2E54;
-color: #DE2E54;
+    background: #FFFFFF;
+    border: 2px solid #DE2E54;
+    color: #DE2E54;
 }
 .section_title {
-font-style: normal;
-font-weight: 700;
-font-size: 36px;
-line-height: 120%;
-color: #fff;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 120%;
+    color: #fff;
 }
 .text_black{
-color: #000;
+    color: #000;
 }
-/* .btn_transparent:hover{
-background: #DE2E54;
-border: 2px solid #DE2E54;
-} */
+
 /* General Css finish */
+
+/* Navbar CSS start */
+
+nav {
+    padding: 24px 170px;
+    display: flex;
+    justify-content: space-between;
+}
+.menu {
+    display: flex;
+    list-style: none;
+
+}
+
+
+/* Navbar CSS finish */
