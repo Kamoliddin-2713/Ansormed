@@ -15,8 +15,8 @@
     src: url("./need/fonts/OpenSans_Condensed-Light.ttf");
 }
 .btn {
-    width: 300px;
-    height: 50px;
+    /* width: 300px;
+    height: 50px; */
     padding: 0.75rem 1.5rem;
     font-style: normal;
     font-weight: 700;
@@ -136,5 +136,51 @@ section{
     top: 98px;
     background: #0EB4C1;
 }
+h1 {
+    position: absolute;
+    width: 500px;
+    height: 86px;
+    left: 170px;
+    top: 218px;
 
+    /* Big heading */
+
+    font-family: 'OSC';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 120%;
+    /* or 43px */
+    color: #FFFFFF;
+}
+p{
+    position: absolute;
+width: 440px;
+height: 108px;
+left: 170px;
+top: 320px;
+
+font-family: 'OS';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 150%;
+/* or 27px */
+color: #FFFFFF;
+}
+main button{
+    position: absolute;
+    width: 189px;
+    height: 47px;
+    left: 170px;
+    top: 464px;
+}
+main img {
+    position: relative;
+    width: 423px;
+    height: 504px;
+    left: 847px;
+    top: 29px;
+    right: 170px;
+}
 /* main Css finish */
