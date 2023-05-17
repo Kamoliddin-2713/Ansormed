@@ -40,6 +40,8 @@
 
 }
 .transparent {
+    position: absolute;
+    margin-top: 2117px;
     background-color: #0EB4C1;;
     padding: 20px;
 }
@@ -111,6 +113,8 @@ nav {
 /*Footer Css start */
 
 footer {
+    position: absolute;
+    margin-top: 2370px;
     background-color: #222;
     padding: 24px 170px;
     display: flex;
@@ -120,3 +124,17 @@ footer {
 }
 
 /*Footer Css finish */
+
+/* main Css start */
+section{
+    margin-top: 0;
+}
+.register {
+    width: 1540px;
+    height: 533px;
+    left: 0px;
+    top: 98px;
+    background: #0EB4C1;
+}
+
+/* main Css finish */
