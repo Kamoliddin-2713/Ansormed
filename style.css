@@ -219,31 +219,21 @@ main img {
     color: #222;
 }
 .service img{
-    width: 210px;
-    height: 210px;
+    width: 215px;
+    height: 215px;
     border-radius: 24px;
 }
-/* .service span{
-    font-family: OSC;
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 29px;
-    letter-spacing: 0px;
-    text-align: left;
-
-} */
-/* .service_2{
-  padding: 219px 219px;
-
-} */
-.service_menu span{
+.image1{
+    position: absolute;
+    top: 0px;
+}
+.service1 span{
     font-family: OSC;
     position: absolute;
     top: 25.5px;
     left: 264px;
     width: 67px;
     height: 29px;
-    font-family: 'Open Sans Condensed';
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
@@ -252,7 +242,7 @@ main img {
     color: #222222;
 
 }
-.service_menu p{
+.service1 p{
     font-family: OS;
     position: absolute;
     top: 78.5px;
@@ -265,6 +255,70 @@ main img {
     flex: none;
     order: 1;
     flex-grow: 0;
+}
+.service2 span{
+    font-family: OSC;
+    position: absolute;
+    top: 317.5px;
+    left: 264px;
+    width: 155px;
+    height: 29px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    color: #222222;
+
+}
+.service2 p{
+    font-family: OS;
+    position: absolute;
+    top: 370.5px;
+    left: 264px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #444444;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.image2{
+    position: absolute;
+    top: 280px;
+}
+.service3 span{
+    font-family: OSC;
+    position: absolute;
+    top: 573.5px;
+    left: 264px;
+    width: 195px;
+    height: 29px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    color: #222222;
+
+}
+.service3 p{
+    font-family: OS;
+    position: absolute;
+    top: 626.5px;
+    left: 264px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #444444;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.image3{
+    position: absolute;
+    top: 560px;
 }
 
 /* main Css finish */
