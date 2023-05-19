@@ -320,5 +320,36 @@ main img {
     position: absolute;
     top: 560px;
 }
+.service4 span{
+    font-family: OSC;
+    position: absolute;
+    top: 877.5px;
+    left: 264px;
+    width: 195px;
+    height: 29px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    color: #222222;
 
+}
+.service4 p{
+    font-family: OS;
+    position: absolute;
+    top: 930.5px;
+    left: 264px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #444444;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.image4{
+    position: absolute;
+    top: 840px;
+}
 /* main Css finish */
