@@ -352,4 +352,15 @@ main img {
     position: absolute;
     top: 840px;
 }
+.register button{
+    position: absolute;
+    width: 189px;
+    height: 47px;
+    left: 626px;
+    top: 1950px;
+
+    background: #DE2E54;
+    border: 2px solid #DE2E54;
+    border-radius: 8px;
+}
 /* main Css finish */
