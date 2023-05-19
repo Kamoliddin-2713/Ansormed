@@ -35,15 +35,41 @@
     border: 2px solid #DE2E54;
 }
 .btn_transparent{
+    position: absolute;
+    top: 159px;
+    left: 520px;
+    background: transparent;
+    border: 2px solid #fff;
+
+}
+.btn2{
+    position: absolute;
+    top: 159px;
+    left: 754px;
     background: transparent;
     border: 2px solid #fff;
 
 }
 .transparent {
     position: absolute;
-    margin-top: 2117px;
-    background-color: #0EB4C1;;
-    padding: 20px;
+    width: 1540px;
+    height: 253px;
+    left: 1px;
+    top: 2117px;
+
+background: #0EB4C1;
+}
+.transparent span{
+    position: absolute;
+    top: 64px;
+    left: 560px;
+    width: 365px;
+    height: 43px;
+    font-family: OSC;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 120%;
 }
 .btn_red:hover{
     background: #FFFFFF;
