@@ -109,7 +109,6 @@ nav {
     font-size: 1.5rem;
     line-height: 2rem;
     margin-left: 1rem;
-    /* color: #000; */
 }
 .menu {
     display: flex;
@@ -151,25 +150,16 @@ nav {
 /*Footer Css start */
 
 footer{
-    position: absolute;
-    width: 1540px;
-    height: 97.94px;
-    top: 2370px;
-    background: #222222;
-}
-.logo_wrap1 a{
-    position:absolute;
     padding: 24px 170px;
-    display: flex;
+    display:flex;
+    justify-content: space-between;
     align-items: center;
+    background-color: #222;
 }
-.logo_wrap1 span {
-    font-family: 'OS';
-    font-weight: 600;
-    font-size: 1.5rem;
-    line-height: 2rem;
-    margin-left: 1rem;
-    /* color: #000; */
+.foot{
+    position: relative;
+    top: 1710px;
+    left: 0px;
 }
 .menu1 {
     position: absolute;
@@ -190,13 +180,6 @@ footer{
     text-transform: uppercase;
     color: #fff;
 }
-
-
-
-
-
-
-
 /*Footer Css finish */
 
 /* main Css start */
@@ -229,15 +212,11 @@ h1 {
     height: 86px;
     left: 170px;
     top: 218px;
-
-    /* Big heading */
-
     font-family: 'OSC';
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 120%;
-    /* or 43px */
     color: #FFFFFF;
 }
 .name p{
@@ -252,7 +231,6 @@ h1 {
     font-weight: 400;
     font-size: 18px;
     line-height: 150%;
-    /* or 27px */
     color: #FFFFFF;
 }
 main button{
@@ -271,9 +249,6 @@ main img {
     right: 170px;
 }
 .service{
-    /* display: flex;
-    flex-direction: column;
-    align-items: flex-start; */
     padding: 0px;
     gap: 80px;
     position: absolute;
