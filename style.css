@@ -95,7 +95,7 @@ a {
 
 nav {
     padding: 24px 170px;
-    display: flex;
+    display:flex;
     justify-content: space-between;
     align-items: center;
 }
@@ -126,6 +126,18 @@ nav {
     letter-spacing: 2px;
     text-transform: uppercase;
 }
+.logo_wrap span:hover{
+    color: #DE2E54;
+}
+.menu li:hover{
+    color: #DE2E54;
+}
+.logo_wrap1 span:hover{
+    color: #DE2E54;
+}
+.menu1 li:hover{
+    color: #DE2E54;
+}
 .text_black {
     color: #000;
 }
@@ -138,16 +150,52 @@ nav {
 
 /*Footer Css start */
 
-footer {
+footer{
     position: absolute;
-    margin-top: 2370px;
-    background-color: #222;
+    width: 1540px;
+    height: 97.94px;
+    top: 2370px;
+    background: #222222;
+}
+.logo_wrap1 a{
+    position:absolute;
     padding: 24px 170px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+}
+.logo_wrap1 span {
+    font-family: 'OS';
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-left: 1rem;
+    /* color: #000; */
+}
+.menu1 {
+    position: absolute;
+    left:773px;
+    top: 38.47px;
+    display: flex;
+    list-style: none;
+
+}
+.menu1 li {
+    margin-left: 2rem;
+    font-family: 'OS';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.9rem;
+    line-height: 150%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
     color: #fff;
 }
+
+
+
+
+
+
 
 /*Footer Css finish */
 
@@ -223,9 +271,9 @@ main img {
     right: 170px;
 }
 .service{
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: flex-start; */
     padding: 0px;
     gap: 80px;
     position: absolute;
@@ -378,15 +426,11 @@ main img {
     position: absolute;
     top: 840px;
 }
-.register button{
+.button{
     position: absolute;
-    width: 189px;
-    height: 47px;
-    left: 626px;
-    top: 1950px;
-
-    background: #DE2E54;
-    border: 2px solid #DE2E54;
-    border-radius: 8px;
+    width: 264px;
+    height: 140px;
+    left: 288px;
+    top: 1110px;
 }
-/* main Css finish */
+/*main Css finish/*
